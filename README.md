@@ -1,10 +1,7 @@
-# 🧠 RAG Assignment — Orbit Technical Support Agent
+# 🧠 RAG based — Orbit Technical Support Agent
 
-This repository contains a hands-on assignment for building a **Retrieval-Augmented Generation (RAG)** system using **LangChain**, **ChromaDB**, and the **OpenAI API**.
+This repository contains a **Retrieval-Augmented Generation (RAG)** system using **LangChain**, **ChromaDB**, and the **OpenAI API**.
 
-You will implement document indexing, retrieval, and answer generation for a fictional technical support assistant called **Orbit**.
-
----
 
 ## 📁 Repository Overview
 
@@ -59,35 +56,3 @@ Add your OpenAI API key to `.env`:
 ```bash
 OPENAI_API_KEY=your_key_here
 ```
-
----
-
-## 🚀 High-Level Workflow
-
-1. Build a vector index using `src/build_index.py`
-2. Implement retrieval + generation in `src/rag_pipeline.py`
-3. Run local self-evaluation with `run_self_eval.py`
-4. Improve retrieval quality and citations
-
-Detailed instructions are in **`instructions.md`**.
-
----
-
-## 📊 Evaluation
-
-- Gold questions are evaluated by default
-- Hidden questions exist and can be enabled with a flag
-- Grading is fully automated and runs locally
-
----
-
-## 📌 Notes
-
-- Do not hardcode answers
-- Use only the provided dataset
-- Citations are mandatory
-- Focus on retrieval quality over long answers
-
----
-
-See **`instructions.md`** for full step-by-step guidance.
