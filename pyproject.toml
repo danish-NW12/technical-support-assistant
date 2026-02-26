@@ -1,0 +1,22 @@
+[project]
+name = "rag-challenge-orbit-support"
+version = "1.0.0"
+description = "RAG Assignment: Orbit Support Agent (LangChain + Chroma + OpenAI)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio==5.34.2",
+    "openai",
+    "langchain==0.3.27",
+    "langchain-openai==0.3.35",
+    "langchain-community==0.3.31",
+    "langchain-chroma>=0.2.0",
+    "langchain-text-splitters==0.3.11",
+    "chromadb",
+    "python-dotenv",
+    "pypdf",
+    "requests",
+]
+
+[tool.uv]
+managed = true
